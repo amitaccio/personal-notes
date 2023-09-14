@@ -1,0 +1,26 @@
+.container{
+    border: 5px solid red;
+    margin-top: 20px;
+    background-color: yellowgreen;
+
+}
+
+#header{
+    background-color: lightsalmon;
+}
+#menu{
+     background-color: antiquewhite;
+    
+}
+menu,ul,li{
+    list-style-type: none;
+    display: inline-block;
+}
+
+#sidebar{
+      background-color: lightskyblue;
+}
+#footer{
+    background-color: lightsalmon;
+    margin-top: 10px;
+}

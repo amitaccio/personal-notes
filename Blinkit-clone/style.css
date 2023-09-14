@@ -1,0 +1,59 @@
+.location > h5 {
+  color: rgb(0, 0, 0);
+  font-weight: 800;
+  margin-bottom: 6px;
+  font-size: 18px;
+  padding-top: 4px;
+}
+.location > p {
+  font-size: 13px;
+  margin: 0px;
+  color: rgb(0, 0, 0);
+  font-weight: 400;
+  clear: both;
+  display: inline-block;
+  overflow: hidden;
+  white-space: nowrap;
+  width: auto;
+  max-width: 210px;
+  text-overflow: ellipsis;
+}
+.search-box {
+  padding: 0px 12px;
+  width: 40vw;
+  
+  border: 1px solid rgb(232, 232, 232);
+  border-radius: 12px;
+  background: rgb(248, 248, 248);
+  color: rgb(130, 130, 130);
+}
+.search-box>input {
+    border: none;
+    background: rgb(248, 248, 248);
+    height: 45px;
+}
+ ::placeholder{
+    font-size: 14px;
+    line-height: 18px;
+ }
+ .my-category{
+  width: 90%;
+ }
+ .my-list{
+    white-space: nowrap;
+    
+ }
+ .scrollabel-list{
+  overflow-x: scroll;
+  width: 90%;
+  margin: auto;
+  
+ }
+ .my-list>img{
+  padding-inline: 7px;
+ }
+ ::-webkit-scrollbar{
+  display: none;
+ }
+
+

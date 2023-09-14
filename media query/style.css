@@ -1,0 +1,25 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+.navbar>ul{
+    display: flex;
+    justify-content: space-between;
+    list-style-type: none;
+    background-color: brown;
+    padding: 20px;
+    cursor: pointer;
+}
+.navbar>ul>li:hover{
+    background-color: white;
+
+}
+@media screen and (max-width:768px){
+     .navbar>ul>{
+        flex-direction: column;
+        align-items: center;
+        background-color: bisque;
+        
+    }
+}
